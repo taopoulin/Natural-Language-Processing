@@ -316,6 +316,8 @@ def generate_reply(messages: list[dict[str, str]]) -> str:
 def engine_info() -> dict[str, Any]:
     nlp = _load_spacy()
     return {
+   
+    /* change the name here */
         "name": "Tao.ai NLP",
         "version": "1.0.0",
         "spacy_available": nlp is not None,
